@@ -2,20 +2,20 @@
     --primary-color: #E1CA96;
     --secondary-color: #ACA885;
     --accent1-color: #918B76;
-    --accent2-color: #626C66;
+    --accent2-color: #2C302C;
     --heading-font: "Merriweather Sans", sans-serif;
     --body-font: "Kantumruy Pro", sans-serif;
 }
 
 h1, h2{
     font-family: var(--heading-font);
-    color: #2C302C;
+    color: var(--accent2-color);
     text-align: center;
 }
 
 p{
     font-family: var(--body-font);
-    color: #2C302C;
+    color: var(--accent2-color);
 }
 
 header{
@@ -25,7 +25,18 @@ header{
     width: 100%;
 }
 
-
+#course-title{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    color: var(--accent2-color);
+}
 
 nav{
     padding: 10px;
@@ -51,7 +62,7 @@ nav{
 
 
 main{
-    width: 90%;
+    max-width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
