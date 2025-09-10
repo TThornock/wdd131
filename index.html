@@ -3,21 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>WDD 131 - Dynamic Web Fundamentals - Trevor Thornock</title>
+    <meta name="decription" content="WDD 131 - Dynamic Web Fundamentals | Trevor Thornock | Main page for my class">
+    <meta name="author" content="Trevor Thornock">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
-        <h1></h1>
-        <nav>
-
+        <h2><span id="course-title">WDD 131 - Dynamic Web Fundamentals</span></h2>
+        <nav class="links">
+            <a href="https://www.linkedin.com/jobs/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27-p28#p27">Scripture</a>
+            <a href="final_project.html">Final Project</a>
         </nav>
     </header>
     <main>
+        <h1>Trevor Thornock</h1>
+        <div class="items">
+            <section class="card">
+                <h2>About Me</h2>
+                <img src="images/profile.jpg" alt="Picture of me Trevor Thornock">
+                <p>Hello, My name is Trevor Thornock. I am currently living in American Fork Utah. Something about me is that I
+                love to travel aswell as trying new foods from places around the world. I am excited to gain new skills as I
+                study Wed development and Computer Programming and gain the skills that will aid me in the future.</p>
+            </section>
+            <section class="card">
+                <h2>Utah</h2>
+                <img src="images/Utah.jpg" alt="Picture of lake powell in southern utah">
+                <p>Utah is a state known for its diverse landscapes. The northern part of utah is known for being more mountainous and for having great locations for skiing and other winter sports.
+                    while the southern part of utah is known for its red rock deserts and is home to many national parks like Zion.</p>
+            </section>
+        </div>    
     </main>
-    <aside>
-    </aside>
     <footer>
+        <p>©<span id="currentyear"></span>| Trevor Thornock | Utah</p>
+        <p><span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
