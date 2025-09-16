@@ -20,7 +20,7 @@ header{
 }
 
 
-h1{
+h2{
     font-family: var(--body-font);
 }
 
@@ -69,7 +69,7 @@ main{
     flex-direction: column;
 }
 
-h1{
+h2{
     text-align: center;
 }
 
