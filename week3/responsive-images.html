@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responive Image Activity</title>
+    <meta name="description" content="Responive Image activity">
+    <meta name="author" content="Trevor Thornock">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/large-hero.webp" media="(min-width: 1000px)">
+                <source srcset="images/medium-hero.webp" media="(min-width: 550px)">
+                <img src="images/small-hero.webp" alt="Johannesburg South Africa Temple" width="400" height="200">
+            </picture>
+        </div>
+    </main>
+</body>
+
+</html>
