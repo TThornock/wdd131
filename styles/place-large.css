@@ -48,7 +48,7 @@
 
 
     h2{
-        border-radius: 100px var(--primary-color);
+        border: 100px var(--primary-color);
         margin: 0;
     }
 
