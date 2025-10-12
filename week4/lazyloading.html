@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="">
+    <title>Lazy Loading Activity</title>
+    <meta name="description" content="Lazy Loading learning activity page">
     <meta name="author" content="Trevor Thornock">
-    <link rel="stylesheet" href="styles">
-    <script src="" defer></script>
+    <link rel="stylesheet" href="styles/lazyloading.css">
+    <script src="scripts/lazyloading.js" defer></script>
     
 </head>
 <body>
-    <header>
-        <h1></h1>
-    </header>
     <main>
-
+        <h1>Lazy Loading Activity</h1>
+        <picture><img src="https://picsum.photos/400/600" alt="lorem pic" loading="lazy" width="400px" height="600px"></picture>
+        <picture><img src="https://picsum.photos/400/650" alt="lorem pic" loading="lazy" width="400px" height="600px"></picture>
+        <picture><img src="https://picsum.photos/400/700" alt="lorem pic" loading="lazy" width="400px" height="600px"></picture>
+        <picture><img src="https://picsum.photos/400/750" alt="lorem pic" loading="lazy" width="400px" height="600px"></picture>
+        <picture><img src="https://picsum.photos/400/800" alt="lorem pic" loading="lazy" width="400px" height="600px"></picture>
+        <picture><img src="https://picsum.photos/400/850" alt="lorem pic" loading="lazy" width="400px" height="600px"></picture>
     </main>
     <footer>
-        <p></p>
+        <p>©<span id="currentyear"></span>| Trevor Thornock | lazy Loading</p>
+        <p><span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
