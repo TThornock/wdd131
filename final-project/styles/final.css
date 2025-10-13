@@ -20,7 +20,6 @@ body {
 }
 
 header {
-
     background-color: var(--primary-color);
     border-bottom: 3px solid var(--accent1-color);
     padding: 1rem;
@@ -54,7 +53,6 @@ nav {
     list-style: none;
     display: none;
     flex-direction: column;
-    padding: 1rem;
     background-color: white;
     border: 1px solid var(--accent2-color);
     position: absolute;
@@ -80,7 +78,7 @@ nav {
 
 .navigation a:hover{
     color: var(--accent2-color);
-    font-weight: 700 bolder;
+    font-weight: 700;
     font-style: italic;
 }
 
@@ -103,10 +101,6 @@ nav {
 
 #menu.open::before {
     content: "❌";
-}
-
-.navigation.open {
-    display: flex;
 }
 
 
