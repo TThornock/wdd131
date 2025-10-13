@@ -75,12 +75,12 @@ nav {
 .navigation a {
     text-decoration: none;
     color: #00008B;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .navigation a:hover{
     color: var(--accent2-color);
-    font-weight: 700 bolder;
+    font-weight: 700;
     font-style: italic;
 }
 
