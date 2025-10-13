@@ -33,24 +33,9 @@
     }
 
 
-    .navigation a{
-        color: #BA0000;
-        font-weight: 460 bolder;
-    }
-
-    .navigation a:hover{
-        color: var(--accent2-color);
-        font-weight: 700 bolder;
-    }
-
-    .navigation a::after{
-        color: #000;
-        font-weight: 500;
-    }
-
     body{
         display: grid;
-        grid-template-rows: 1fr 60% 1fr;
+        grid-template-rows: 20% 70% 10%;
     }
 
     header{

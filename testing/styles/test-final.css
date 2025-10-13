@@ -74,10 +74,15 @@ nav {
 
 .navigation a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #00008B;
     font-weight: bold;
 }
 
+.navigation a:hover{
+    color: var(--accent2-color);
+    font-weight: 700 bolder;
+    font-style: italic;
+}
 
 #menu {
     font-size: 1.5rem;
@@ -135,7 +140,7 @@ section{
 
 
 .goal, .questions{
-    width: 60%;
+    width: 80%;
     height: auto;
     margin: 8px;
     background-color: var(--accent1-color);
